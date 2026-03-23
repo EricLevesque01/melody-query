@@ -1,0 +1,16 @@
+# CODEOWNERS
+# These paths require approval from designated owners before merging.
+
+# Scoring and normalization — deterministic core
+/src/techwatch/scoring/           @techwatch/core
+/src/techwatch/normalization/     @techwatch/core
+
+# CI/CD workflows — security-sensitive
+/.github/workflows/               @techwatch/devops
+
+# Architecture documentation
+/docs/architecture/               @techwatch/core
+
+# Protected config
+/AGENTS.md                        @techwatch/core
+/CODEOWNERS                       @techwatch/core

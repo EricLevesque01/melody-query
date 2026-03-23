@@ -1,0 +1,53 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ────────────────────────────────
+.venv/
+venv/
+ENV/
+
+# ── IDE / Editor ────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Testing / Coverage ──────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# ── mypy ────────────────────────────────────────────────
+.mypy_cache/
+
+# ── Ruff ────────────────────────────────────────────────
+.ruff_cache/
+
+# ── Environment ─────────────────────────────────────────
+.env
+.env.local
+
+# ── Database ────────────────────────────────────────────
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ── Cache ───────────────────────────────────────────────
+.cache/
+
+# ── OS ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
